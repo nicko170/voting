@@ -22,7 +22,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: buildpacks/github-actions/setup-pack@v4.8.1
+      - uses: buildpacks/github-actions/setup-pack@v5.8.8
 
       - name: Extract metadata for the Docker image
         id: meta
